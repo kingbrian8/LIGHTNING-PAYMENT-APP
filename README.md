@@ -28,15 +28,20 @@ A mobile-first Lightning Network payment application designed for businesses in 
 - Optimized for mobile home-screen installation.
 - Fast, responsive, and app-like experience on any smartphone.
 
-## Tech Stack
-- **Frontend**: Vanilla HTML5, CSS3 (Glassmorphism), JavaScript (Vanilla).
-- **Icons**: [Phosphor Icons](https://phosphoricons.com/).
-- **Typography**: Outfit (Google Fonts).
+## Project Structure
+- **`backend/`**: Node.js server using Express. Handles API requests and serves the frontend.
+- **`frontend/`**: Vanilla JavaScript SPA with premium dark mode styling.
+- **`package.json`**: Project manifest and dependency management.
 
 ## Getting Started
+### Prerequisites
+- Node.js installed on your system.
+
+### Installation
 1. Clone the repository.
-2. Open `index.html` in any modern web browser.
-3. Select your role and start accepting payments!
+2. Run `npm install` to install dependencies.
+3. Start the server with `npm start`.
+4. Open `http://localhost:3000` in your browser.
 
 ---
 *Created for the Lightning Network ecosystem in Africa.*
