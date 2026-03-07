@@ -5,7 +5,7 @@ const SAT_PER_ZAR = 1 / ZAR_PER_SAT;
 
 const state = {
     user: null, // { name: string, role: 'admin' | 'cashier' }
-    balanceZAR: 21750.00, // equivalent to 1,450,000 Sats
+    balanceZAR: 2781750.00, // equivalent to 1,450,000 Sats
     dailyRevenueZAR: 3750.00, // equivalent to 250,000 Sats
     transactions: [],
     currentInvoice: null, // { amountZar: number, amountSats: number, id: string, status: 'pending' | 'paid' | 'converting' }
