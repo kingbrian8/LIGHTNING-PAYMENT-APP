@@ -19,11 +19,11 @@ const navigate = (viewName) => {
     switch (viewName) {
         case 'login': renderLogin(app); break;
         case 'dashboard': renderDashboard(app); break;
-        case 'keypad': renderKeypad(app); break; // Step 1 prep
-        case 'invoice': renderInvoice(app); break; // Step 1 wait, Step 2
-        case 'converting': renderConverting(app); break; // Step 3
+        case 'keypad': renderKeypad(app); break;
+        case 'invoice': renderInvoice(app); break;
+        case 'converting': renderConverting(app); break;
         case 'success': renderSuccess(app); break;
-        case 'withdraw': renderWithdraw(app); break; // Step 5
+        case 'withdraw': renderWithdraw(app); break;
         case 'withdraw_success': renderWithdrawSuccess(app); break;
         case 'history': renderHistory(app); break;
         case 'settings': renderSettings(app); break;
@@ -90,8 +90,8 @@ window.handleLogin = () => {
     const name = document.getElementById('bizName').value || 'My Business';
     state.user = { name, role: selectedRole };
     // Initialize with mock data
-    state.balanceZAR = 21750.00;
-    state.dailyRevenueZAR = 3750.00;
+    state.balanceZAR = 2560750.00;
+    state.dailyRevenueZAR = 4750.00;
     state.transactions = [
         { id: 'tx-1', amountZAR: 75.00, time: '2 hours ago', type: 'received' },
         { id: 'tx-2', amountZAR: 45.00, time: '5 hours ago', type: 'received' },
