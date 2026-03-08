@@ -50,7 +50,7 @@ const renderLogin = (container) => {
             
             <div class="input-group">
                 <label>Business Name</label>
-                <input type="text" id="bizName" placeholder="e.g. Mzansi Cafe" value="Mzansi Cafe">
+                <input type="text" id="bizName" placeholder="e.g. Kasi Cafe" value="Kasi Cafe">
             </div>
 
             <div class="input-group" style="margin-bottom: 32px;">
